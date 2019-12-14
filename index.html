@@ -66,7 +66,13 @@
             height: 20px;
             z-index: 400;
         }
-
+        @media only screen and (max-width: 800px) {
+            .im
+            {
+                width:  300px;
+                height: 100px;
+            }
+        }
         h3 {
             font-size: 20px;
             color: #666363
@@ -80,7 +86,7 @@
             <div class="cube1"></div>
             <div class="cube2"></div>
         </div>
-    </div>
+    </div>          
     <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -122,13 +128,15 @@
             </div> -->
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <img class="landing-logo wow fadeInUp" data-wow-delay="1.6s" src="images/Asset 20.svg" style="">
+                    <div class="d-flex flox-row justify-content-center align-items-center">
+                        <img class="landing-logo wow fadeInUp im" data-wow-delay="1.6s" src="images/Asset 20.svg">
+                    </div>
                     <h3 class="wow bounceIn" data-wow-delay="0.9s">Feb 7th in Indian Institute of Information
                         Technology, Allahabad</h3>
 
                     <a href="#" class="btn btn-lg btn-danger smoothScroll wow fadeInUp"
                         data-wow-delay="2.3s">Registrations opening soon</a>
-                    <a href="brochure/brochure.pdf" class="btn btn-lg btn-danger smoothScroll wow fadeInUp hidden-xs"
+                    <a href="brochure/brochure.pdf" class="btn btn-lg btn-danger smoothScroll wow fadeInUp"
                         data-wow-delay="2.3s">SPONSOR US</a>
                 </div>
             </div>
@@ -675,8 +683,7 @@
             </div>
         </div>
     </footer>
-
-    <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+            <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
