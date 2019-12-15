@@ -248,6 +248,7 @@ footer {
         padding: 20px 0;
         border-bottom: 0;
         background: linear-gradient(to right, #243B55, #141E30);
+        border-radius: 0px;
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;
