@@ -247,7 +247,7 @@ footer {
     .custom-navbar {
         padding: 20px 0;
         border-bottom: 0;
-        background: 0 0;
+        background: linear-gradient(to right, #243B55, #141E30);
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;

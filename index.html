@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -66,11 +66,19 @@
             height: 20px;
             z-index: 400;
         }
-        @media only screen and (max-width: 800px) {
+        @media only screen and (max-width: 781px) {
             .im
             {
                 width:  300px;
-                height: 100px;
+                height: 150px;
+            }
+        }
+        @media only screen and (min-width: 780px) and (max-width: 1200px){
+            .im
+            {
+                margin-top: 20px;
+                width:  200px;
+                height: 150px;
             }
         }
         h3 {
@@ -87,7 +95,7 @@
             <div class="cube2"></div>
         </div>
     </div>          
-    <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+    <div class="navbar custom-navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -128,9 +136,7 @@
             </div> -->
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <div class="d-flex flox-row justify-content-center align-items-center">
                         <img class="landing-logo wow fadeInUp im" data-wow-delay="1.6s" src="images/Asset 20.svg">
-                    </div>
                     <h3 class="wow bounceIn" data-wow-delay="0.9s">Feb 7th in Indian Institute of Information
                         Technology, Allahabad</h3>
 
